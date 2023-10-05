@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: content-box;
+  overflow-x: hidden;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+.home{
+    height:98vh;
+    width: 100%;
+     filter: brightness(100%);
+    padding:20px;
+    backdrop-filter:blur(10px);
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/14a8fe85-b6f4-4c06-8eaf-eccf3276d557/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+h1{
+    color: red;
+    height: fit-content;
+
+    text-indent: 10px;
+    text-shadow: 5px 5px 30px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-stretch: expanded;
+    text-rendering: optimizeSpeed;
+
+}
+.fl{
+    display:flex;
+}
+
+ a{
+    text-decoration: none;
+
+}
+.signup{
+height: 27px;
+width:max-content;
+overflow: hidden;
+border-radius: 6px;
+text-align: center;
+padding:8.9px;
+outline: none;
+color: white;
+border: none;
+font-size: 20px;
+transition: 0.2s ease-in;
+background-color:rgb(255, 0, 0);
+padding-bottom: 10px;
+-webkit-text-stroke:0.1px;
+}
+.signup:nth-child(1){
+    position: absolute;
+
+right: 100px;
+}
+.signup:hover{
+    background-color:rgb(223, 60, 60);
+    color: white;
+   
+}
+.content{
+    height:fit-content;
+    display:flex;
+    margin-top: 100px;
+    justify-content:center;
+    align-items: center;
+}
+.actual{
+    margin-top: 100px;
+    height:fit-content;
+    width: 780px;
+    padding: 10px;
+    color: white;
+}
+h3{
+    color: white;
+    margin:10px;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 30px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+hr{
+    height:6px;
+    background-color: rgba(214, 214, 214, 0.619);
+}
+.down{
+    height: 230vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding:30px;
+    padding-right: 40px;
+}
+
+.down1{
+    display: grid;
+    grid-template-columns: auto auto;
+   column-width: 50%;
+    height: 68vh;
+    overflow: hidden;
+   
+}
+.item1{
+   overflow: hidden;
+    width:700px;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.item2{ 
+    overflow: hidden;
+  
+    width: fit-content;
+    position: absolute;
+    right:10px;
+    background: transparent;
+    overflow-y: hidden;
+}
+
+.vedio{
+position:absolute;
+right: 88px;
+width:469px;
+z-index: 0;
+backface-visibility:visible;
+
+margin-top:100px;
+}
+/* cards css  for movie page*/
+.moviepage{
+    height:250vh;
+    width: 100%;
+    padding:10px;
+    background:#222222;
+  }
+  .moviecontent{
+    margin:30px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+  }
+  .moviecontent h2{
+    font-size:40px;
+   font-stretch: semi-condensed;
+   text-shadow: 1px 1px 10px rgb(216, 146, 146);
+  }
+  .moviecontent p{
+    font-size: 26px;
+    width:80%;
+    flex-wrap: wrap;
+  }
+ /* HORIZONTAL SCROLL */
+.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+    border-radius:15px;
+  }
+  
+  .gridscroll{
+    display:inline-block;
+  }
+  
+ 
